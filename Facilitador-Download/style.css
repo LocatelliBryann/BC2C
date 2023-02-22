@@ -36,3 +36,59 @@ a {
     align-items: end;
     position: absolute; top: 12px; left: 5%; bottom: 0px;
 }
+
+.botoes {
+    display:flex;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+a {
+    margin: 0.5em;
+    padding: 10px;
+}
+
+.botoes_comuns  {
+    border-radius: 6px; padding: 15px; cursor: pointer; color: #000000; border: none; font-size: 16px; border-color: black; border-style:solid; border-width: thin;
+}
+
+.botoes_comuns h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoes_comuns button:hover {
+    cursor: pointer;
+}
+
+.botoes_contabil  {
+    border-radius: 6px; padding: 15px; cursor: pointer; color: #000000; border: none; font-size: 16px; border-color: black; border-style:solid; border-width: thin;
+}
+
+.botoes_contabil h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoes_contabil button:hover {
+    cursor: pointer;
+}
+
+.botoes_diversos  {
+    border-radius: 6px; padding: 15px; cursor: pointer; color: #000000; border: none; font-size: 16px; border-color: black; border-style:solid; border-width: thin;
+}
+
+.botoes_diversos h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoes_diversos button:hover {
+    cursor: pointer;
+}
